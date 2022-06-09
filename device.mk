@@ -54,6 +54,11 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/configs/idc/*.idc),\
 $(foreach f,$(wildcard $(LOCAL_PATH)/configs/keylayout/*.kl),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/$(notdir $f)))
 
+# GMS
+ifeq ($(WITH_GMS),true)
+GMS_MAKEFILE=gms_minimal.mk
+endif
+
 # Init
 PRODUCT_PACKAGES += \
     init.ets.rc \
