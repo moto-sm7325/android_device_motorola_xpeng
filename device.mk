@@ -27,6 +27,7 @@ $(call inherit-product, device/motorola/sm7325-common/common.mk)
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
     LineageApertureAppDevice \
+    LineagePlatformDevice \
     LineageSystemUIDevice \
     SystemUIResDevice \
     WifiResDevice
@@ -69,6 +70,10 @@ PRODUCT_PACKAGES += \
 # Lineage Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xpeng
+
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.lineage
 
 # NFC
 PRODUCT_PACKAGES += \
