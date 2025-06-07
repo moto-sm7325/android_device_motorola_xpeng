@@ -67,10 +67,6 @@ PRODUCT_PACKAGES += \
     init.recovery.xpeng.rc \
     load_touch.sh.recovery
 
-# Lineage Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xpeng
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
@@ -100,6 +96,12 @@ PRODUCT_SOONG_NAMESPACES += \
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-xpeng-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-xpeng.conf
+
+# Touch HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.motorola
+
+$(call soong_config_set, MOTOROLA_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touchscreen/primary/interpolation)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/xpeng/xpeng-vendor.mk)
