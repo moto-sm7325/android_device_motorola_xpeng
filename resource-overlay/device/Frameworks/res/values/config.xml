@@ -216,13 +216,7 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string name="config_mainBuiltInDisplayCutout" translatable="false">
-        M 503.5,65
-        a 36.5,36.5 0 1 0 73,0
-        a 36.5,36.5 0 1 0 -73,0
-        Z
-        @left
-    </string>
+    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 503.5,65 a 36.5,36.5 0 1 0 73,0 a 36.5,36.5 0 1 0 -73,0 Z @left</string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
          one single bounding rect per device edge to the app via
@@ -230,13 +224,7 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout
          -->
-    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false">
-        M -36.5 0
-        L -36.5 130
-        L 36.5 130
-        L 36.5 0
-        Z
-    </string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false">M -36.5 0 L -36.5 130 L 36.5 130 L 36.5 0 Z</string>
 
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
@@ -254,17 +242,17 @@
     <!-- An array of arrays of side fingerprint sensor properties relative to each display.
          Note: this value is temporary and is expected to be queried directly
          from the HAL in the future. -->
-    <array name="config_sfps_sensor_props" translatable="false">
+    <array name="config_sfps_sensor_props">
         <item>@array/config_sfps_sensor_props_0</item>
     </array>
 
-    <array name="config_sfps_sensor_props_0" translatable="false">
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps">true</bool>
+
+    <array name="config_sfps_sensor_props_0">
         <item>local:4630946747577212034</item> <!--item>displayId</item-->
         <item>1080</item> <!--item>sensorLocationX</item-->
         <item>800</item> <!--item>sensorLocationY</item-->
         <item>50</item> <!--item>sensorRadius</item-->
     </array>
-
-    <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 </resources>
