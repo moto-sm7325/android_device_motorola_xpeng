@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config mcc="460" mnc="00">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="01">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="02">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="03">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="05">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="06">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="07">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="08">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="09">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="10">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Unicom</string>
+        <string name="carrier_name_string_zh-rCN">中国联通</string>
+        <string name="carrier_name_string_zh-rTW">中國聯通</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="11">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="12">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Telecom</string>
+        <string name="carrier_name_string_zh-rCN">中国电信</string>
+        <string name="carrier_name_string_zh-rTW">中國電信</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="13">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Mobile</string>
+        <string name="carrier_name_string_zh-rCN">中国移动</string>
+        <string name="carrier_name_string_zh-rTW">中國移動</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="15">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Broadnet</string>
+        <string name="carrier_name_string_zh-rCN">中国广电</string>
+        <string name="carrier_name_string_zh-rTW">中國廣電</string>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="20">
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">China Tietong</string>
+        <string name="carrier_name_string_zh-rCN">中国铁通</string>
+        <string name="carrier_name_string_zh-rTW">中國鐵通</string>
+    </carrier_config>
+</carrier_config_list>
